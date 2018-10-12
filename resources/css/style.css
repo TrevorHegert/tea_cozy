@@ -127,3 +127,12 @@ header .link {
   justify-content: space-around;
   align-items: center;
 }
+
+#contact {
+  height: 200px;
+}
+
+footer {
+  margin-left: 20px;
+  text-align: left;
+}
