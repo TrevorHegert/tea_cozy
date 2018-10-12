@@ -102,10 +102,28 @@ header .link {
   height: 500px;
   margin: 0 auto;
   background-image: url("../images/img-locations-background.jpg");
-  background-position: center center;;
+  background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#locationblock h2 {
+  padding-top: 80px;
+}
+
+#locations {
+  display: flex;
+  flex-direction: row;
+  margin-top: 15px;
+}
+
+.addressblock {
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  margin: 0 40px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
