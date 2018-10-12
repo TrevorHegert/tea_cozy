@@ -18,6 +18,8 @@ header {
   flex-direction: row;
   border-bottom: 1px solid seashell;
   justify-content: space-between;
+  background-color: black;
+  z-index: 10;
 }
 
 header #headerlogo {
@@ -60,5 +62,15 @@ header .link {
 
 #missiontext h2, h4 {
   padding: 20px;
+  margin: 0;
+}
+
+#teamonth {
+  width: 1000px;
+  margin: 80px auto;
+}
+
+#teamonth h2, h4 {
+  padding: 10px;
   margin: 0;
 }
